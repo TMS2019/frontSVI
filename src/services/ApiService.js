@@ -6,7 +6,7 @@ class ApiService{
     getAll(param) {
         return axios.get(baseurl+param);
     }
-
+//test
     getAllWithPaging(param) {
         return axios.get(baseurl+param+"1/10");
     }
